@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "a77ba9c81479404e6006e785cd825729")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001578707064"))
 
 # Protect Content
-PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
+PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -36,8 +36,8 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "https://t.me/+ZBYjyBrDUe41MzI9")
 
 #Database MONGO
-MONGO_URI = os.environ.get("MONGO_URI", "")
-MONGO_NAME = os.environ.get("MONGO_NAME", "")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://yudhishthirpy:yudhi6969@cluster0.7yytu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_NAME = os.environ.get("MONGO_NAME", "Cluster0")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002186280452")) 
